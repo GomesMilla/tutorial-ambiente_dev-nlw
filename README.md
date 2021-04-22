@@ -1,18 +1,31 @@
-sistema utilizado linux mint 20.1
+SO utilizado durante o tutorial, linux mint 20.1
 
-Primeiramente, precisa baixar o node.js:
+Primeiramente, é necessário ter o node.js instalado na máquina, caso não o tenha, abra o terminal e exacute os seguintes comandos:
 
-curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-sudo apt-get install -y nodejs
+'''
+$ curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+'''
 
-instale o cli do expo:
-sudo npm install --global expo-cli
+Logo após, é necessário ter o expo cli instalado, caso não o tenha:
 
-criar um novo projeto expo
-expo init plantmanager
+'''
+$ sudo npm install --global expo-cli
+'''
 
-entrar na pasta do projeto:
-cd plantmanager
+Para criar um novo projeto expo, é necessário rodar o seguinte comando:
 
-iniciar o aplivativ
-expo start
+'''
+$ expo init plantmanager
+'''
+
+Entre na pasta do projeto com o seguinte comando:
+
+'''
+$ cd plantmanager
+'''
+
+Para rodar o projeto, rode o seguinte comando:
+'''
+$ expo start
+'''
